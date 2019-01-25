@@ -2,6 +2,8 @@
 
 <img src="https://github.com/klequis/mui-like-buttons-ex/blob/master/text-button.gif" />
 
+<img src="https://github.com/klequis/mui-like-buttons-ex/blob/master/fab-button.gif" />
+
 ## Overview of how they were created
 - A link the Roboto font is added to index.html
 - The Material UI button that will be replicated is viewed in Firefox
