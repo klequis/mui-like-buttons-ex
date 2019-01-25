@@ -53,8 +53,9 @@ const App = ({ classes }) => {
         </table>
       </div>
       <div className={classes.fabButtons}>
-        <h2 className={classes.h2}>Floating Action Button (FAB)</h2>
 
+        <h2 className={classes.h2}>Floating Action Button (FAB)</h2>
+        <p>The immitation button is intentionally darker as this is the color needed for the application I'm currently working on.</p>
         <table>
           <tbody>
             <tr>
