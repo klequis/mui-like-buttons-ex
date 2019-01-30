@@ -5,6 +5,7 @@ import FabInk from './FabInk'
 import TextButtonCss from './TextButtonCss'
 import TextButtonInk from './TextButtonInk'
 import Fab from '@material-ui/core/Fab';
+import RaisedButton from './RaisedButton'
 
 
 const Td = ({ children }) => {
@@ -15,6 +16,8 @@ const App = ({ classes }) => {
 
   return (
     <div className={classes.wrapper}>
+      <button>Plain Button</button>
+      {/* Text Button */}
       <h1>Replicating Material Design/UI Buttons.</h1>
       <p>The below are buttons which imitate the look of Material Design buttons, including their characteristic ripple effect.</p>
       <div className={classes.textButtons}>
@@ -52,8 +55,9 @@ const App = ({ classes }) => {
           </tbody>
         </table>
       </div>
-      <div className={classes.fabButtons}>
 
+      {/* FAB Button */}
+      <div className={classes.fabButtons}>
         <h2 className={classes.h2}>Floating Action Button (FAB)</h2>
         <p>The immitation button is intentionally darker as this is the color needed for the application I'm currently working on.</p>
         <table>
@@ -80,6 +84,27 @@ const App = ({ classes }) => {
           </tbody>
         </table>
       </div>
+
+      {/* Raised Button */}
+      <div className={classes.fabButtons}>
+        <h2 className={classes.h2}>Raised Button</h2>
+        <table>
+          <tbody>
+            <tr>
+              <Td>
+                Raised Button
+              </Td>
+              <Td>
+              <RaisedButton>
+                Raised
+              </RaisedButton>
+              </Td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
     </div>
   )
 }

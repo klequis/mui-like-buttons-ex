@@ -1,15 +1,15 @@
 import React from 'react'
 import injectSheet from 'react-jss'
-import classNames from 'classnames'
+// import classNames from 'classnames'
 import Ink from 'react-ink'
 
 const TextButton = ({ children, classes }) => {
-  const clsNames =  classNames([
-    classes.button,
-    classes.ripple,
-  ])
+  // const clsNames =  classNames([
+  //   classes.button,
+  //   classes.ripple,
+  // ])
   return (
-      <button className={clsNames}>
+      <button className={classes.button}>
         <Ink />
         {children}
       </button>
