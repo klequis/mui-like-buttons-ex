@@ -1,18 +1,12 @@
 import React from 'react'
 import injectSheet from 'react-jss'
-// import classNames from 'classnames'
-// import Ink from 'react-ink'
+import Ink from 'react-ink'
 
 const RaisedButton = ({ children, classes }) => {
-  // const clsNames =  classNames([
-  //   classes.button,
-  //   classes.ripple,
-  // ])
   return (
       <button className={classes.button}>
-        {/* <Ink /> */}
-        {/* {children} */}
-        Hello
+        <Ink />
+        {children}
       </button>
     )
 }
